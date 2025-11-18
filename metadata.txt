@@ -1,0 +1,16 @@
+[general]
+name=Fillet Digitize Tool
+description=Draw polyline with rounded corners (fillet) in real-time, adjustable radius via +/- keys(±1), [/] keys(±10).
+version=1.0
+qgisMinimumVersion=3.16
+qgisMaximumVersion=3.99
+author=Your Name
+email=winchop@gmail.com
+homepage=https://github.com/winchop/fillet_digitize
+repository=https://github.com/winchop/fillet_digitize
+tracker=https://github.com/winchop/fillet_digitize/issues
+changelog=Initial release.
+tags=digitizing, fillet, polyline, rounding, 倒角, 圆角多段线, 实时
+category=Vector
+experimental=False
+deprecated=False

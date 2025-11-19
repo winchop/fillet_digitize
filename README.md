@@ -98,13 +98,14 @@ At each interior vertex, the tool computes a circular arc that smoothly connects
 
 ## 📜 License / 许可证
 
-This project is licensed under the **GNU General Public License v3.0**.  
-本项目采用 **GNU 通用公共许可证 v3.0** 发布。
+This project is licensed under the **MIT License**.  
+本项目采用 **MIT 许可证** 发布。
 
-See [LICENSE](LICENSE) for details.  
-详见 [LICENSE](LICENSE) 文件。
+For details, see the [LICENSE](LICENSE) file.  
+具体条款请参阅 [LICENSE](LICENSE) 文件。
 
 ---
+
 
 ## 🙌 Contributing / 贡献
 

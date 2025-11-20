@@ -1,8 +1,9 @@
 # Fillet Digitize Tool  
-## 倒角数字化工具  
+## 实时预览倒角的多段线绘制工具  
 
 A QGIS plugin to draw polylines with real-time rounded corners (fillets). Adjust the fillet radius on-the-fly using keyboard shortcuts while digitizing.  
-QGIS 插件，用于绘制带实时倒角（圆角）的多段线。在数字化过程中，可通过键盘快捷键即时调整倒角半径。已有的工具倾向于在polyline 、Polygon 绘制完成后，再进行下一步的圆角修饰步骤。实际绘图过程中，设计师习惯于边思考边绘制。
+QGIS 插件，用于绘制带实时倒角（圆角）的多段线。在数字化过程中，可通过键盘快捷键即时调整倒角半径。已有的工具倾向于在polyline 、Polygon 绘制完成后，再进行下一步的圆角修饰步骤。
+实际绘图过程中，设计师习惯于边思考边绘制。这个插件可以很方便的用于比如在一堆底图参考的基础上绘制带有倒角的道路中心线。
 
 ---
 
@@ -23,8 +24,11 @@ QGIS 插件，用于绘制带实时倒角（圆角）的多段线。在数字化
 
 ## 📥 Installation / 安装方法
 
-### Option 1: Manual Install (Recommended)  
-### 方法一：手动安装（推荐）
+### Option 1: From the Qgis menu bar find Plugins |Manage and Install Plugins|search for *Fillet Digitize Tool*  (Recommended)  
+### 方法一：从菜单|管理并安装插件|搜索框中搜索 *Fillet Digitize Tool*（推荐）
+
+### Option 2: Manual Install (Recommended)  
+### 方法二：手动安装（推荐）
 
 1. Download the plugin folder [`fillet_digitize`](https://github.com/yourname/fillet_digitize/releases)  
    下载插件文件夹 [`fillet_digitize`](https://github.com/yourname/fillet_digitize/releases)
@@ -39,8 +43,8 @@ QGIS 插件，用于绘制带实时倒角（圆角）的多段线。在数字化
 3. Restart QGIS and enable the plugin in **Plugins → Manage and Install Plugins**  
    重启 QGIS，在 **插件 → 管理和安装插件** 中启用本插件
 
-### Option 2: Clone from GitHub  
-### 方法二：从 GitHub 克隆
+### Option 3: Clone from GitHub  
+### 方法三：从 GitHub 克隆
 
 ```bash
 cd ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/

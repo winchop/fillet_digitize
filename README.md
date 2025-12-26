@@ -1,5 +1,5 @@
-# ![LOGO](/icons/icon.svg) Fillet Digitize Tool  
-# ![LOGO](/icons/icon.svg) 倒角数字化工具
+# Fillet Digitize Tool  
+# 倒角数字化工具
 
 > **Draw polylines with real-time rounded corners in QGIS.**  
 > **在 QGIS 中绘制带实时倒角（圆角）的多段线。**

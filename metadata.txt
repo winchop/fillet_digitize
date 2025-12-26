@@ -2,7 +2,7 @@
 name=Fillet Digitize Tool
 description=Draw polyline with rounded corners (fillet) in real-time
 about=This plugin allows digitizing polylines with real-time fillet (rounded corners). The fillet radius can be adjusted on-the-fly using keyboard shortcuts: '+'/'-' to change by 1 unit, and '['/']' to change by 10 units. Ideal for cartographic or engineering workflows requiring smooth transitions between line segments.
-version=1.0
+version=2.0
 qgisMinimumVersion=3.16
 qgisMaximumVersion=3.99
 author=Chopper ZhangWenChao
@@ -15,3 +15,4 @@ tags=digitizing, fillet, polyline, rounding, 倒角, 圆角多段线, 实时
 category=Vector
 experimental=False
 deprecated=False
+icon=icon.png
